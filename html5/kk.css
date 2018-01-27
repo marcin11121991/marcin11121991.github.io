@@ -1,0 +1,11 @@
+input {
+    color: red;
+    background: pink;
+    padding-right: 35px;
+    padding-left: 35px; 
+    
+}
+lable {
+    color:  blue;
+    padding-right: 65px;
+}
