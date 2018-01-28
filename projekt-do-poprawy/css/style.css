@@ -1,0 +1,79 @@
+html {
+    width: 100%;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    width: 88%;
+}
+
+#menu {
+
+    margin: 5px;
+    width: 65%;
+    position: relative;
+    left: 350px;
+    text-align: center;
+
+}
+
+a {
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size:30px;
+    
+
+
+}
+
+ul,
+ul li {
+    display: inline;
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    display: inline;
+    white-space: nowrap;
+
+}
+
+h1 {
+   
+   position: absolute;
+    top:550px;
+    left: 435px;
+    font-size: 75px;
+    text-align: center;
+    z-index: -100;
+}
+
+
+img {
+    position: relative;
+    height: 80%;
+    width: 113%;
+    z-index: -100;
+}
+
+#about {
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 113%;
+}
+
+#contact {
+    text-align: center;
+    width: 113%;
+}
+
+.abour-content {
+	font-family: sans-serif;
+}
+#about-header {
+	font-size: 50px;
+}
