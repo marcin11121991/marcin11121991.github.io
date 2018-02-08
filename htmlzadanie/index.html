@@ -9,30 +9,34 @@
 <body>
     <form action="https://formspree.io/marcin.m.debski@gmail.com" method="post">
 
-        <label for="imie">Imię</label><br />
+        <label for="imie">Imię</label>
         <input type="text" id="imie" name="imie">
         <br />
-        <label for="nazw">Nazwisko</label><br />
+        <label for="nazw">Nazwisko</label>
         <input type="text" id="nazw" name="nazw">
         <br />
-        <label for="mail">E-mail</label><br />
+        <label for="mail">E-mail</label>
         <input type="text" id="mail" name="mail">
         <br />
-        <label for="tel">Tel</label><br />
+        <label for="tel">Tel</label>
         <input type="text" id="tel" name="tel">
         <br />
-        <label for="miasto">Miasto</label><br />
+        <label for="miasto">Miasto</label>
         <select name=miasto>
+                   <option> </option>
                     <option >Gdańsk</option>
                     <option >Warszawa</option>
                     <option >Kraków</option></select>
         <br />
         <label for="sex">Płeć :</label>
-        <input type="radio" id="sex" name="sex" value="Kobieta" /> Kobieta
-        <input type="radio" id="sex" name="sex" value="Mężczyzna" />Mężczyzna
+         <p>Kobieta</p>
+        <input type="radio" id="sex" name="sex" value="Kobieta" />
+        <p>Mężczyzna</p>
+        <input type="radio" id="sex" name="sex" value="Mężczyzna" />
         <br />
-        <label for="zgoda">Zgoda na przetwarzanie danych</label>
+       
         <input type="checkbox" id="zgoda" name="zgoda">
+         <label for="zgoda">Wyrażam zgodę na przetwarzanie danych</label>
         <br />
         <label for="wiad">Wiadomość:</label><br>
         <textarea name="Komentarz" cols="50" rows="10">Wiadomość...</textarea>

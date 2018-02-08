@@ -2,3 +2,49 @@ body {
     background-color: bisque;
     font-family: sans-serif;
 }
+
+
+form {
+    width: 500px;
+    height: 650px;
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    
+}
+form label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+form select, form input[type="text"]{
+    background-color: aqua;
+    
+}
+
+form input[type="checkbox"]{
+    float: left;
+}
+
+
+input[type="text"]:hover {
+    background-color: red;
+}
+input[type="text"]:focus {
+    background-color: orange;
+    
+} 
+textarea:focus {
+    background-color: lightblue;
+    resize: none;
+}
+
+input[type="submit"] {
+    height: 50px;
+    width: 50px;
+    background-color: hotpink;
+    margin-left: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+   
+}
