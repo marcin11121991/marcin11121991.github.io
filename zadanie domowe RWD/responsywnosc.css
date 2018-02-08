@@ -1,0 +1,52 @@
+@media (min-width: 992px) and (max-width:1170px) {
+
+    #about {
+        background-color: white;
+        background-image: url(zadanie-domowe-rwd-materialy/obrazy/man-2.jpg);
+        background-position: center top;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+    }
+    h1 {
+        font-size: 30px;
+        left: 70%;
+        top: 28%;
+    }
+
+    h2 {
+        font-size: 30px;
+        left: 70%;
+        top: 30%;
+
+    }
+
+}
+
+@media (max-width:991px) {
+
+
+    #about {
+        position: relative;
+        background-color: white;
+        background-image: url(zadanie-domowe-rwd-materialy/obrazy/man-1.jpg);
+        background-position: center top;
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+       
+    }
+
+    h1,
+    h2 {
+        position: absolute;
+        display: inline-block;
+        color: black;
+        font-size: 18px;
+        left: 40%;
+    
+      
+    }
+
+
+
+}

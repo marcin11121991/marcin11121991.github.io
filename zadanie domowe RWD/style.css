@@ -1,0 +1,38 @@
+html, body {background: white; height: 100%;margin: 0 auto;overflow-y: hidden; }
+
+h1 {
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    font-size: 50px;
+}
+
+
+h2 {
+    display: inline-block; 
+    position: absolute;
+    top: 54%;
+    left: 2%;
+    font-size: 50px;
+  
+}
+
+div {
+   min-height: 100%;
+    width: 100%;
+}
+
+#about {
+    position: relative;
+    color:white;
+    display: inline-block;
+    background-color: white;
+    background-image: url(zadanie-domowe-rwd-materialy/obrazy/man-1.jpg) ;
+    background-position: center top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: left bottom ;
+    
+}
